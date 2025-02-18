@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Emotocool.EmoColorView">
+    <ContentView.Content>
+        <AbsoluteLayout>
+            <Path Fill="#CCCCFF">
+                <Path.Data>
+                    <GeometryGroup>
+                        <EllipseGeometry Center="40.35, 40.35" RadiusX="34.02" RadiusY="34.02"/>
+                    </GeometryGroup>
+                </Path.Data>
+            </Path>
+            <Path Stroke="Red" StrokeThickness="7" Data="M3.5,40.35 c 0-13.64, 7.41,-25.54,18.43-31.91"/> 
+            <Path Stroke="Yellow" StrokeThickness="7" Data="M3.5,40.35c0,13.64,7.41,25.54,18.43,31.91"/>
+            <Path Stroke="Green" StrokeThickness="7" Data="M77.2,40.35c0-13.64-7.41-25.54-18.43-31.91"/>
+            <Path Stroke="Cyan" StrokeThickness="7" Data="M21.93,72.26c5.42,3.14,11.71,4.94,18.42,4.94s13-1.8,18.42-4.94"/>
+            <Path Stroke="Blue" StrokeThickness="7" Data="M58.77,72.26c11.01-6.37,18.43-18.27,18.43-31.91"/>
+            <Path Stroke="Magenta" StrokeThickness="7" Data="M21.93,8.44c5.42-3.14,11.71-4.94,18.42-4.94s13,1.8,18.42,4.94"/>
+        </AbsoluteLayout>
+    </ContentView.Content>
+</ContentView>
